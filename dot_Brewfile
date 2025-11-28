@@ -1,9 +1,73 @@
-tap "homebrew/core" 
-tap "homebrew/cask" 
+# -----------------------
+# Homebrew taps 
+# -----------------------
 
+# -----------------------
 # CLI tools 
+# -----------------------
 brew "git" 
+brew "gh" 
 brew "wget" 
+brew "curl" 
+brew "tree"
+brew "mas" 
+brew "pandoc" 
+brew "ffmpeg"
+brew "imagemagick" 
+brew "macvim" 
+brew "mackup"  
+ 
 
+# -----------------------
+# Programming related 
+# -----------------------
+brew "python@3.12" 
+brew "go"
+brew "docker"  
+
+# -----------------------
+# Terminal & Shell 
+# -----------------------
+brew "zsh" 
+brew "chezmoi" 
+
+
+# -------------------------
 # GUI apps 
+# -------------------------
 cask "iterm2" 
+cask "visual-studio-code" 
+cask "google-chrome" 
+# cask "rectangle" (ik wil eerst de nieuwe Mac functionaliteit uitproberen) 
+# cask "raycast" (ik wil ook eerst de nieuwe functionaliteit in Spotlight uitproberen" 
+cask "obsidian" 
+cask "dropbox"
+cask "firefox" 
+cask "airflow" 
+cask "protonvpn" 
+cask "proton-pass" 
+cask "github" 
+cask "numi" 
+cask "whatsapp" 
+cask "signal" 
+cask "transmission" 
+cask "stellarium" 
+cask "zotero" 
+cask "calibre" 
+cask "krita" 
+cask "yed"
+cask "microsoft-office" 
+
+# ------------------------
+# Mac App Store apps (mas) 
+# ------------------------
+# mas "Xcode", id: 497799835 (even uitzetten om te kijken of dit helpt met 'vastlopen')  
+mas "Amphetamine", id: 937984704
+
+# -------------------------
+# Install by hand for now 
+# --------------------------
+# sdkman 
+# ublock origin 
+# youtube-dl 
+
