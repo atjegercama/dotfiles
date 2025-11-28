@@ -1,0 +1,6 @@
+# Basic zsh config
+export PATH="/opt/homebrew/bin:$PATH"
+
+# Prompt example
+PROMPT='%n@%m:%~ %# '
+

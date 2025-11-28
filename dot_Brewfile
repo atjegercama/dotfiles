@@ -1,0 +1,9 @@
+tap "homebrew/core" 
+tap "homebrew/cask" 
+
+# CLI tools 
+brew "git" 
+brew "wget" 
+
+# GUI apps 
+cask "iterm2" 
