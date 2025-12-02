@@ -57,6 +57,7 @@ cask "calibre"
 cask "krita" 
 cask "yed"
 cask "microsoft-office" 
+cask "scrivener" 
 
 # ------------------------
 # Mac App Store apps (mas) 
